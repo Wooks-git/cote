@@ -1,11 +1,18 @@
-'''
+![image](https://github.com/user-attachments/assets/93af26f9-b211-4cbd-9657-148f080bfe31)
+
+
+
 100-progresses[i]를 result에 저장.
+
 result%speeds[i] == 0 이면, days에 int(result/speeds[i])
+
 result%speeds[i] != 0 이면, days에 int(result/speeds[i])+1
 
 days 순회.
 
-'''
+
+```python
+
 def solution(progresses, speeds):
     answer = []
     days = []
@@ -32,3 +39,6 @@ def solution(progresses, speeds):
     answer.append(count)
 
     return answer
+
+    
+```
